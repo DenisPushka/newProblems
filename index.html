@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чат</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <body>
+      <h2 class="msg">Сообщения</h2><hr><br>
+			<!--<img src="avatar">--> 
+      <div class="msg" id="all_mess"></div><br>
+
+    <div class="Profile">
+        <a href="#study"></a>
+				<div class="msg"><h1>Профиль</h1></div><hr><br>
+				<form id="messForm">
+							<label for="name">Имя</label><br>
+							<input type="text" name="name" id="name" widht="40px" placeholder="Введите имя" class="form-control">
+							<br><br>
+							<!-- <form action="/upload" method="post" enctype="multipart/form-data"> -->
+                <!-- <label for="avatar">Aватар</label><br> -->
+                <!-- <button class="btn">Открыть</button>
+                <button class="btn primary">Загрузить</button> -->
+								<input type="file" id="avatar" >
+		</div>
+					<div class="chat">
+						<hr>
+							<textarea style="width: 900px" name="message" id="message" class="form-control" font-size="200px"  placeholder="Введите сообщение" ></textarea><br>
+							<input type="submit" value="Отправить" class="btn btn-danger">
+					</div>
+				</form>
+  </body>  
+  <script src="app.js"></script>
+</html>
