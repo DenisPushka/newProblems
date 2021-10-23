@@ -1,3 +1,5 @@
 import { upload } from './upload.js'
 
-upload('#avatar')
+upload('#avatar', {
+  accept: ['.png', '.jpg', '.jpeg'],
+})
