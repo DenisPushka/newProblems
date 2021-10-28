@@ -87,3 +87,18 @@ body {
 input[type='file'] {
   display: none;
 }
+
+.preview {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.preview-image {
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.preview-image img {
+  width: 180px;
+  height: auto;
+}
